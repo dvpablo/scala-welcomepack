@@ -5,10 +5,14 @@ This is a repo showing a basic setup in SCALA, using:
 - [SBT](http://www.scala-sbt.org/) for dependency management and test
 
 
+##Compile
+```
+$ scalac -d classes src/main/scala/Hello.scala
+```
+
 ##Build
 ```
 $ sbt
-$ ./build.sh
 ```
 
 ##Test
@@ -21,7 +25,7 @@ $ sbt
 ```
 $ sbt
 > run
-$ ./run.sh
+$ scala -cp classes Hello
 $ ./runScript.sh
 ```
 
